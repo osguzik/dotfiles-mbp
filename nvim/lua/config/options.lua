@@ -1,14 +1,19 @@
--- Options are automatically loaded before lazy.nvim startup
--- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
--- Add any additional options here
+-- Indentation
+vim.opt.autoindent = true
+vim.opt.smartindent = true
+vim.opt.expandtab = true
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
 
 -- Disable scrolling animations
 vim.g.snacks_animate = false
 
--- Indentation
-vim.o.expandtab = true
-vim.o.shiftwidth = 4
-vim.o.tabstop = 4
-vim.o.softtabstop = 4
+vim.opt.backspace = { "start", "eol", "indent" }
 
-vim.g.autoformat = false
+vim.opt.wrap = false
+
+vim.opt.backup = false
+vim.opt.swapfile = false
+
+vim.opt.mouse = ""
