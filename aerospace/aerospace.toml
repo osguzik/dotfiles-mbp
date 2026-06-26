@@ -17,7 +17,7 @@ preset = 'qwerty'
 
 [mode.main.binding]
 # Terminal
-alt-enter = 'exec-and-forget open -n /Applications/kitty.app'
+alt-enter = 'exec-and-forget open -n /Applications/Ghostty.app'
 
 # Window focus (vim-style)
 alt-h = 'focus left'
@@ -98,3 +98,4 @@ alt-shift-l = ['join-with right', 'mode main']
 [[on-window-detected]]
 if.window-title-regex-substring = "^Figure [0-9]+"
 run = "layout floating"
+

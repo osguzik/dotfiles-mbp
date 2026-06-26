@@ -1,0 +1,12 @@
+theme = Gruvbox Dark
+
+font-family = Terminess Nerd Font Mono
+font-size = 16.0
+font-thicken = true
+
+macos-titlebar-style = hidden
+window-padding-x = 6
+window-padding-y = 6
+
+mouse-hide-while-typing = true
+
