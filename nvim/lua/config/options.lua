@@ -6,6 +6,9 @@ vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
 
+-- Disable autoformat
+vim.g.autoformat = false
+
 -- Disable scrolling animations
 vim.g.snacks_animate = false
 
